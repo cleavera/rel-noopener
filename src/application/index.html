@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <h1>Application</h1>
+
+    <main>
+        <form data-loginForm class="LoginForm">
+            <fieldset>
+                <label>Username</label>
+                <input type="text" id="username" data-loginName>
+            </fieldset>
+
+            <fieldset>
+                <label>Password</label>
+                <input type="password" id="password">
+            </fieldset>
+
+            <button data-loginButton>Login</button>
+        </form>
+
+        <article data-welcomeBox class="WelcomeBox hidden">
+            <h2>Welcome</h2>
+
+            <p>You are logged in as <span data-welcomeName class="WelcomeBox-name"></span> <a href="http://localhost:1339" target="_blank">Some suggested reading</a></p>
+        </article>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
